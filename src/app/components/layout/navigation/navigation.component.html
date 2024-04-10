@@ -1,0 +1,55 @@
+<!--Navigation header-->
+
+<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../../../assets/images/logo.png" class="logo img-fluid" alt="Kind Heart Charity">
+            <span>
+                OTOTECH Charity Foundation
+                <small>NGO Organization</small>
+            </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" routerLink="/"  href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#about" >About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#causes">Causes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#volunteer">Volunteer</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link click-scroll dropdown-toggle" href="#news" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                        <li><a class="dropdown-item" routerLink="/news-listing">News Listing</a></li>
+
+                        <li><a class="dropdown-item" routerLink="news-details">News Detail</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item ms-3">
+                    <a class="nav-link custom-btn custom-border-btn btn" routerLink="/donate">Donate</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
